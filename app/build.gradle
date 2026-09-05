@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.codex.c2000stressdemo'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId 'com.codex.c2000stressdemo.retry'
+        minSdk 26
+        targetSdk 33
+        versionCode 4
+        versionName '1.2.1-coexist'
+    }
+}
+
+def javacOverride = System.getenv('C2000_STRESS_JAVAC8')
+tasks.withType(org.gradle.api.tasks.compile.JavaCompile).configureEach {
+    // Source files contain Chinese UI text; never rely on the Windows ANSI code page.
+    options.encoding = 'UTF-8'
+    if (javacOverride) {
+        options.fork = true
+        options.forkOptions.executable = javacOverride
+    }
+}
