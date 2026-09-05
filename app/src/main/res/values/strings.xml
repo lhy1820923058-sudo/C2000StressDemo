@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">C2000 压力测试-重试版</string>
+    <string name="subtitle">Camera2 · WiFi · CPU · A2DP/BLE 共存监控</string>
+    <string name="system_status_title">系统、A2DP 与 BLE 状态</string>
+    <string name="a2dp_service_connecting">A2DP：恢复服务连接中</string>
+    <string name="open_camera">打开摄像头</string>
+    <string name="wifi_transfer">开始 WiFi 传输</string>
+    <string name="frame_transfer">每 0.5 秒截帧并传输</string>
+    <string name="wifi_multithread">WiFi 多线程处理</string>
+    <string name="camera_multithread">摄像多线程处理</string>
+    <string name="a2dp_auto_reconnect">A2DP 自动重连</string>
+    <string name="a2dp_reconnect_now">立即重连 A2DP</string>
+    <string name="bluetooth_settings">蓝牙设置</string>
+    <string name="stop_all">停止全部</string>
+    <string name="reset_stats">重置统计</string>
+</resources>

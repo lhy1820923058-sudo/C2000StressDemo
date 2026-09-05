@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F3F6F6</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="primary">#176B5B</color>
+    <color name="primary_dark">#0E493F</color>
+    <color name="text">#172429</color>
+    <color name="muted">#59676C</color>
+    <color name="line">#D5DEDE</color>
+    <color name="warning">#A85800</color>
+    <color name="danger">#B43A36</color>
+    <color name="success">#17734E</color>
+    <color name="console">#172525</color>
+    <color name="console_text">#DCEDE9</color>
+</resources>
